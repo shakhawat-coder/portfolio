@@ -141,7 +141,7 @@ h1,h2,h3,h4,h5,h6,p{
     background: $second_bg;
     display: flex;
     // flex-direction: column;
-    column-gap: 30px;
+    // column-gap: 30px;
     align-items: center;
     justify-content: center;
     .about_header{
@@ -198,6 +198,7 @@ h1,h2,h3,h4,h5,h6,p{
             padding: 20px 0;
         }
         p{
+            font-size: 18px;
             line-height: 1.5;
             width: auto;
             text-align: left;
