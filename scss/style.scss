@@ -211,3 +211,50 @@ h1,h2,h3,h4,h5,h6,p{
         }
     }
 }
+
+// <!-- ===================education section================ -->
+.education{
+    padding: 50px 0;
+    .education_header{
+        text-align: center;
+        color: $text_color;
+        h2{
+            font-size: 35px;
+                font-weight: 700;
+                line-height: 1.5;
+                color: $text_color;
+                padding-bottom: 30px;
+        }
+    }
+    .education_section{
+        color: $text_color;
+        .title{
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 1.5;
+            padding: 20px 0;
+        }
+        .education_wrapper .education_item{
+            padding: 20px;
+            border: 2px solid $primary_color;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            .session{
+                font-size: 24px;
+                color: $primary_color;
+                padding-bottom: 8px;
+                i{
+                    padding-right: 8px;
+                }
+            }
+            h3{
+                font-size: 30px;
+                line-height: 1.5;
+            }
+            p{
+                font-size: 18px;
+                line-height: 1.5;
+            }
+        }
+    }
+}

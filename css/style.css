@@ -207,4 +207,50 @@ h1, h2, h3, h4, h5, h6, p {
 .about .about_content .btn:hover {
   background: transparent;
   border: 2px solid #00abf0;
+}
+
+.education {
+  padding: 50px 0;
+}
+.education .education_header {
+  text-align: center;
+  color: #ededed;
+}
+.education .education_header h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ededed;
+  padding-bottom: 30px;
+}
+.education .education_section {
+  color: #ededed;
+}
+.education .education_section .title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 20px 0;
+}
+.education .education_section .education_wrapper .education_item {
+  padding: 20px;
+  border: 2px solid #00abf0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.education .education_section .education_wrapper .education_item .session {
+  font-size: 24px;
+  color: #00abf0;
+  padding-bottom: 8px;
+}
+.education .education_section .education_wrapper .education_item .session i {
+  padding-right: 8px;
+}
+.education .education_section .education_wrapper .education_item h3 {
+  font-size: 30px;
+  line-height: 1.5;
+}
+.education .education_section .education_wrapper .education_item p {
+  font-size: 18px;
+  line-height: 1.5;
 }/*# sourceMappingURL=style.css.map */
