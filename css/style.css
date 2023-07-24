@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6, p {
   display: block;
   margin-bottom: 15px;
   width: 100%;
-  background: #eee;
+  background: #081b29;
   height: 35px;
   border-radius: 4px;
   transition: 0.4s linear;
@@ -291,8 +291,8 @@ h1, h2, h3, h4, h5, h6, p {
   left: 0;
   font-weight: bold;
   font-size: 13px;
-  color: #fff;
-  background: #6adcfa;
+  color: #ededed;
+  background: #00abf0;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6, p {
 .skills .skillbar .skillbar-bar {
   height: 35px;
   width: 0px;
-  background: #6adcfa;
+  background: #00abf0;
 }
 .skills .skillbar .skill-bar-percent {
   position: absolute;
@@ -317,8 +317,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 11px;
   height: 35px;
   line-height: 35px;
-  color: #444;
-  color: rgba(0, 0, 0, 0.4);
+  color: #ededed;
 }
 
 .contact h2 {
