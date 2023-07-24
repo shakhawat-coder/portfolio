@@ -19,4 +19,10 @@ $(function(){
         fadeOutDelay: 2000,
         loop:true
       });
+
+      jQuery('.skillbar').each(function(){
+        jQuery(this).find('.skillbar-bar').animate({
+            width:jQuery(this).attr('data-percent')
+        },2000);
+    });
 });
