@@ -23,7 +23,9 @@ ul,ol{
 h1,h2,h3,h4,h5,h6,p{
     line-height: .8;
 }
+// =================Navbar section=============/
 .navbar{
+    z-index: 9999;
     position: fixed;
     background: $bg_color;
     left: 0;
@@ -259,6 +261,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .skills{
+    background: $second_bg;
     padding: 50px 0;
     .skills_header{
         text-align: center;
@@ -375,6 +378,36 @@ h1,h2,h3,h4,h5,h6,p{
             outline: none;
             border: none;
 
+        }
+    }
+}
+
+// =========Footer section================
+footer{
+    padding: 20px;
+    .copyright_content{
+        color: $text_color;
+        p{
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    }
+    .top_button{
+        height: 40px;
+        width: 40px;
+        background: $primary_color;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all linear 0.3s;
+        a{
+            color: $text_color;
+            border: 1px solid transparent;
+           
+        }&:hover{
+            background: transparent;
+            border: 1px solid $primary_color;
         }
     }
 }

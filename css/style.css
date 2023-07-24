@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .navbar {
+  z-index: 9999;
   position: fixed;
   background: #081b29;
   left: 0;
@@ -245,6 +246,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .skills {
+  background: #112e42;
   padding: 50px 0;
 }
 .skills .skills_header {
@@ -367,4 +369,33 @@ h1, h2, h3, h4, h5, h6, p {
   color: #ededed;
   outline: none;
   border: none;
+}
+
+footer {
+  padding: 20px;
+}
+footer .copyright_content {
+  color: #ededed;
+}
+footer .copyright_content p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+footer .top_button {
+  height: 40px;
+  width: 40px;
+  background: #00abf0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all linear 0.3s;
+}
+footer .top_button a {
+  color: #ededed;
+  border: 1px solid transparent;
+}
+footer .top_button:hover {
+  background: transparent;
+  border: 1px solid #00abf0;
 }/*# sourceMappingURL=style.css.map */
