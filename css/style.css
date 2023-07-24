@@ -220,7 +220,6 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 35px;
   font-weight: 700;
   line-height: 1.5;
-  color: #ededed;
   padding-bottom: 30px;
 }
 .education .education_section {
@@ -231,6 +230,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 700;
   line-height: 1.5;
   padding: 20px 0;
+  color: #ededed;
 }
 .education .education_section .education_wrapper .education_item {
   padding: 20px;
@@ -269,9 +269,21 @@ h1, h2, h3, h4, h5, h6, p {
   color: #ededed;
   padding-bottom: 30px;
 }
-
-.skillbar {
-  font-family: "Open Sans", "sans-serif";
+.skills .codind_skill_section .title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 20px 0;
+  color: #ededed;
+}
+.skills .proffetional_skill_section .title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 20px 0;
+  color: #ededed;
+}
+.skills .skillbar {
   position: relative;
   display: block;
   margin-bottom: 15px;
@@ -282,8 +294,7 @@ h1, h2, h3, h4, h5, h6, p {
   transition: 0.4s linear;
   transition-property: width, background-color;
 }
-
-.skillbar-title {
+.skills .skillbar .skillbar-title {
   position: absolute;
   top: 0;
   left: 0;
@@ -294,8 +305,7 @@ h1, h2, h3, h4, h5, h6, p {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-
-.skillbar-title span {
+.skills .skillbar .skillbar-title span {
   display: block;
   background: rgba(0, 0, 0, 0.1);
   padding: 0 20px;
@@ -304,14 +314,12 @@ h1, h2, h3, h4, h5, h6, p {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-
-.skillbar-bar {
+.skills .skillbar .skillbar-bar {
   height: 35px;
   width: 0px;
   background: #6adcfa;
 }
-
-.skill-bar-percent {
+.skills .skillbar .skill-bar-percent {
   position: absolute;
   right: 10px;
   top: 0;
