@@ -2,6 +2,7 @@
 // variable
 $bg_color: #081b29;
 $text_color:#ededed;
+$primary_color:#00abf0;
 // common css
 *{
     padding: 0;
@@ -39,6 +40,65 @@ h1,h2,h3,h4,h5,h6,p{
             font-weight: 500;
             color: $text_color;
             text-transform: capitalize;
+            transition: all linear 0.3s;
+            &:hover{
+             color: $primary_color;
+            }
         }
     } 
+}
+
+// =================Home section==============
+.home{
+    min-height: 100vh;
+    
+    .home_content{
+        // max-width: 60%;
+        // display: flex;
+        padding-top: 40%;
+        align-items: center;
+        color: $text_color;
+        h1{
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1.5;
+            span{
+                color: transparent;
+                -webkit-text-stroke:.7px $primary_color
+            }
+        }
+        .animated{
+            width: 300px;
+            height: 80px;
+            h3{
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 1.5;
+                color: transparent;
+                -webkit-text-stroke:.7px $primary_color
+            }
+        }
+        p{
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .btn{
+            border: 2px solid transparent;
+            &:hover{
+                background: transparent;
+            border: 2px solid $primary_color;
+            }
+        }
+    }
+    .home_img{
+        height: 620px;
+        width: 100%;
+        overflow: hidden;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
 }

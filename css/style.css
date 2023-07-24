@@ -43,4 +43,59 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
   color: #ededed;
   text-transform: capitalize;
+  transition: all linear 0.3s;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #00abf0;
+}
+
+.home {
+  min-height: 100vh;
+}
+.home .home_content {
+  padding-top: 40%;
+  align-items: center;
+  color: #ededed;
+}
+.home .home_content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.home .home_content h1 span {
+  color: transparent;
+  -webkit-text-stroke: 0.7px #00abf0;
+}
+.home .home_content .animated {
+  width: 300px;
+  height: 80px;
+}
+.home .home_content .animated h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: transparent;
+  -webkit-text-stroke: 0.7px #00abf0;
+}
+.home .home_content p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.home .home_content .btn {
+  border: 2px solid transparent;
+}
+.home .home_content .btn:hover {
+  background: transparent;
+  border: 2px solid #00abf0;
+}
+.home .home_img {
+  height: 620px;
+  width: 100%;
+  overflow: hidden;
+}
+.home .home_img img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
