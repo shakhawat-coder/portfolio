@@ -54,6 +54,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 // =================Home section==============
 .home{
+    background: $bg_color;
     min-height: 100vh;
     
     .home_content{
@@ -70,7 +71,7 @@ h1,h2,h3,h4,h5,h6,p{
             }
         }
         .animated{
-            width: 300px;
+            width: 280px;
             height: 80px;
             h3{
                 font-size: 30px;
@@ -89,6 +90,7 @@ h1,h2,h3,h4,h5,h6,p{
             column-gap: 30px;
             padding: 20px 0;
             .btn{
+                display: inline-block;
                 border: 2px solid transparent;
                 transition: all linear 0.3s;
                 &:hover{
@@ -137,7 +139,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 // ==============About section==============
 .about{
-    padding: 50px 0;
+    padding: 50px 20px;
     background: $second_bg;
     display: flex;
     // flex-direction: column;
@@ -175,17 +177,6 @@ h1,h2,h3,h4,h5,h6,p{
                 height: 100%;
                 object-fit: cover;
             }
-            // .circle{
-            //     padding: 10px;
-            //     position: absolute;
-            //     top: 0;
-            //     left: 0;
-            //     transform: translate(-50% 50%);
-            //     width: 100%;
-            //     height: 100%;
-            //     border-radius: 50%;
-            //     border-top: 2px solid red;
-            // }
         }
     }
     .about_content{
@@ -333,7 +324,6 @@ h1,h2,h3,h4,h5,h6,p{
             height: 35px;
             line-height: 35px;
             color: $text_color;
-            // color: rgba(0, 0, 0, 0.4);
         }
       }
 }

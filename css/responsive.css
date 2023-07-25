@@ -2,10 +2,11 @@
 @media (max-width:575.99px) {
     /* ================Navbar section=============== */
     .navbar {
-        padding: 10px 0;
+        padding: 10px 10px;
     }
-    .navbar-brand img{
-        width: 60%;
+    .navbar .navbar-brand {
+        font-size: 25px;
+        font-weight: 600;
     }
     .navbar-toggler {
         border: 0;
@@ -25,33 +26,122 @@
     }
 
  /* ================home section=============== */
- .home{
-    padding: 0 20px;
- }
- .home .home_content h1 {
+
+ .home {
+    min-height: 50vh;
+}
+.home .home_content h1 {
     font-size: 30px;
     font-weight: 500;
     line-height: 1.5;
-    }
-    .home .home_content .animated {
-        width: 300px;
-        height: 50px;
-    }
-    .home .home_content p {
-        font-size: 12px;
-        line-height: 1.5;
-        margin: 0;
-    }
-    .home .home_content .social {
-       padding-bottom: 20px;
-    }
+}
+.home .home_content .animated {
+    height: 50px;
+}
+.home .home_content .animated h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.home .home_content p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+}
+.home .home_content .social {
+    padding-bottom: 20px;
+}
 
     /* <!-- =================About section================= --> */
     .about{
         padding: 40px 20px;
     }
+    .about .about_header h2 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .about .about_header .about_image {
+        width: 150px;
+        height: 150px;
+    }
+    .about .about_content h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
     .about .about_content p {
         font-size: 12px;
     }
+    /* <!-- ===================education section================ --> */
+    .education .education_header h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .education .education_section .title {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0;
+    }
+    .education .education_section .education_wrapper .education_item .session {
+        font-size: 14px;
+    }
+    .education .education_section .education_wrapper .education_item h3 {
+        font-size: 20px;
+    }
+    .education .education_section .education_wrapper .education_item p {
+        font-size: 12px;
+    }
 
+    /* <!-- ===================skill section================ --> */
+    .skills .skills_header h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .skills .codind_skill_section .title {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0;
+    }
+    .skills .proffetional_skill_section .title {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0;
+    }
+
+    /* <!-- Contact Section  --> */
+    .contact h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    /* <!-- =============Footer section================ --> */
+    footer .copyright_content p {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+/* =====================small screen============= */
+@media (min-width:576px) and (max-width:767.99px) {
+    /* ================Navbar section=============== */
+    .navbar {
+        padding: 10px 10px;
+    }
+    .navbar .navbar-brand {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .navbar-toggler {
+        border: 0;
+    }
+    .navbar-toggler i{
+        color: #ffffff;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-item .nav-link {
+        font-weight: 500;
+        font-size: 16px;
+    }
 }
