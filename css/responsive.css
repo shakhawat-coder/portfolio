@@ -324,7 +324,7 @@ footer .copyright_content p {
     
     
     .home .home_img {
-        height: 480px;
+        height: 540px;
     }
      /* <!-- =================About section================= --> */
      
@@ -334,4 +334,20 @@ footer .copyright_content p {
     footer .copyright_content p {
         text-align: center;
     }
+}
+/* ==============Extra large============== */
+@media (min-width:1200px) and (max-width:1399.99px) {
+         /* ================home section=============== */
+    
+         .home {
+            /* min-height: 90vh; */
+        }
+        .home .home_content {
+            /* padding-top: 30%; */
+        }
+        
+        
+        .home .home_img {
+            height: 680px;
+        }
 }
