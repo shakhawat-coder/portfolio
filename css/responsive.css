@@ -311,3 +311,27 @@ footer .copyright_content p {
     text-align: center;
 }
 }
+/* =====================large screen============= */
+@media (min-width:992px) and (max-width:1199.99px) {
+        /* ================home section=============== */
+    
+     .home {
+        min-height: 80vh;
+    }
+    .home .home_content {
+        padding-top: 20%;
+    }
+    
+    
+    .home .home_img {
+        height: 480px;
+    }
+     /* <!-- =================About section================= --> */
+     
+    
+    
+    /* <!-- =============Footer section================ --> */
+    footer .copyright_content p {
+        text-align: center;
+    }
+}
