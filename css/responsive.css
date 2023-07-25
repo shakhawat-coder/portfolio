@@ -339,15 +339,20 @@ footer .copyright_content p {
 @media (min-width:1200px) and (max-width:1399.99px) {
          /* ================home section=============== */
     
-         .home {
-            /* min-height: 90vh; */
-        }
-        .home .home_content {
-            /* padding-top: 30%; */
-        }
         
         
         .home .home_img {
             height: 680px;
         }
+}
+
+/* ==============Extra Extra large============== */
+@media (min-width:1400px){
+    /* ================home section=============== */
+
+   
+   
+   .home .home_img {
+       height: 680px;
+   }
 }
